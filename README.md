@@ -1,23 +1,35 @@
-# Graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells
+# PAGA - Partition-based graph abstraction
 
-Our preprint will soon be updated but contains the essential ideas: [Wolf *et al.*, bioRxiv (2017)](https://doi.org/10.1101/208819).
+*Generate cellular maps of differentiation manifolds with complex topologies.*
 
-Note the former repository https://github.com/theislab/graph_abstraction, which for now still contains some of the material presented in the preprint; we will move this material here, soon.
+The bioRxiv [preprint](https://doi.org/10.1101/208819) contains the essential ideas, but is otherwise very much out of date. [Here's](https://rawgit.com/falexwolf/paga_paper/master/paga.pdf) a completely revised version. If you find PAGA useful, consider citing the bioRxiv preprint.
 
-*Partition-based graph abstraction* (PAGA) is available within
-[Scanpy](https://scanpy.readthedocs.io). Central toplevel functions are:
-* [`scanpy.api.tools.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html)
-* [`scanpy.api.plotting.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html)
-* [`scanpy.api.plotting.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html)
-* [`scanpy.api.plotting.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html)
+PAGA is available within [Scanpy](https://scanpy.readthedocs.io) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html).
 
-Central example notebooks are:
+Listed below are central example notebooks, which also allow reproducing all main figures of the revised preprint. If you start working with PAGA, go through [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb).
 
-* [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb): hematopoiesis - if you start working with PAGA, start with this
-* [*blood/nestorowa16*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/nestorowa16/nestorowa16.ipynb): hematopoiesis
-* [*blood/dahlin18*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/dahlin18/dahlin18.ipynb): hematopoiesis
-* [*blood/simulated*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/simulated/simulated.ipynb): simulated hematopoiesis
-* [*planaria*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/planaria/planaria.ipynb): planarian lineages (Plass *et al.*, 2018)
-* [*zebrafish*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/zebrafish/zebrafish.ipynb): lineages of zebrafish embryo (Wagner *et al.*, 2018)
+notebook       | system         | details  | reference | figure
+---------------| ---------------| ---------| ----------| ------
+[*blood/simulated*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/simulated/simulated.ipynb) | hematopoiesis | simulated | [Krumsiek *et al.*, 2011](https://doi.org/10.1371/journal.pone.0022649) | 2a
+[*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb) | murine hematopoiesis | 2,730 cells, MARS-seq | [Paul *et al.*, Cell (2015)](https://doi.org/10.1016/j.cell.2015.11.013) | 2b
+[*blood/nestorowa16*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/nestorowa16/nestorowa16.ipynb) | murine hematopoiesis | 1,654 cells, Smart-seq2 | [Nestorowa *et al.*, Blood (2016)](https://doi.org/10.1182/blood-2016-05-716480) | 2c
+[*blood/dahlin18*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/dahlin18/dahlin18.ipynb) | murine hematopoiesis | 44,802 cells, 10x Genomics | [Dahlin *et al.*, Blood (2018)](https://doi.org/10.1182/blood-2017-12-821413) | 2d
+[*planaria*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/planaria/planaria.ipynb) | planaria | 21,612 cells | [Plass *et al.*, Science (2018)](https://doi.org/10.1126/science.aaq1723) | 3
+[*zebrafish*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/zebrafish/zebrafish.ipynb) | zebrafish embryo | 53,181 cells |  [Wagner *et al.*, Science (2018)](https://doi.org/10.1126/science.aar4362) | 4
+[*1M_neurons*](https://github.com/theislab/scanpy_usage/blob/master/170522_visualizing_one_million_cells/logfile_1.3M.txt) | neurons | 1.3 million cells, 10x Genomics | [10x Genomics (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1M_neurons) | S12
+[*deep_learning*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/deep_learning/deep_learning.ipynb) | cycling Jurkat cells | 30,000 single-cell images |  [Eulenberg *et al.*, Nat. Commun. (2017)](https://doi.org/10.1038/s41467-017-00623-3) | S14
 
+All supplemental figures of the revised preprint can be reproduced using the following:
 
+notebook       |  description | figure
+---------------|  ----------| ------
+[*connectivity_measure*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/connectivity_measure/connectivity_measure.ipynb) | connectivity measure | S1, S2, S3
+[*robustness*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/robustness) | robustness and multi-resolution capacity | S4, S5
+[*comparisons/simulated_data*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/comparisons/simulated_data) | comparisons for simulated data | S6, S7
+[*comparisons/paul15_monocle2*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/comparisons/paul15_monocle2) | comparison Monocle 2 for Paul *et al.* (2015) | S8
+[*comparisons/nestorowa16_monocle2*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/comparisons/nestorowa16_monocle2) | comparison Monocle 2 for Nestorowa *et al.* (2016) | S9
+[*embedding_quality*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/embedding_quality/embedding_quality.ipynb) | quantifying embedding quality | S10
+[*simulation*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/simulated/simulated.ipynb) | simulating hematopoiesis | S11
+[*1M_neurons*](https://github.com/theislab/scanpy_usage/blob/master/170522_visualizing_one_million_cells/logfile_1.3M.txt) | neurons, 1.3 million cells, 10x Genomics, [10x Genomics (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1M_neurons) | S12
+[*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb) | annotation of louvain clusters using PAGA | S13
+[*deep_learning*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/deep_learning/deep_learning.ipynb) | cycling Jurkat cells, 30,000 single-cell images, [Eulenberg *et al.*, Nat. Commun. (2017)](https://doi.org/10.1038/s41467-017-00623-3) | S14
