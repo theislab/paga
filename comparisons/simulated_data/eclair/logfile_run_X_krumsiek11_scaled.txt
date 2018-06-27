@@ -1,0 +1,312 @@
+(py27) Alexs-MBP:eclair alexwolf$ python -m ECLAIR.Build_instance
+
+*****************************************
+*****************************************
+***             ECLAIR                ***
+*****************************************
+*****************************************
+
+
+ECLAIR: provide the path to the file holding the data to be analyzed:
+./X_krumsiek11_scaled.txt
+
+ECLAIR: how may rows count as header in this file? Enter '0' if the file is not adorned by any header:
+1
+
+ECLAIR: which column of the data-file holds the names, tags or IDs of its samples? Enter '0' for the 1st column, '1' for the second, etc.:
+0
+
+ECLAIR: does this data-set include some time information? [Y/n] 
+n
+
+ECLAIR: you may choose to exclude some columns as features. If this option does not apply, simply press 'Enter'. Otherwise, provide a list of numbers:
+
+
+ECLAIR: please give an estimate of the number of samples in this data-set:
+600
+
+ECLAIR: please enter the number of trees that will be bagged into a forest (a value of '50' is recommended):
+50
+
+ECLAIR: how many points do you want to sample from the dataset? Please provide a fraction of the total number of cells:
+0.8
+
+ECLAIR: choose the clustering algorithm to be applied to each of 50 subsamples from your data-set.
+Available methods: affinity propagation (1), DBSCAN (2), hierarchical clustering (3) & k-means (4)
+
+4
+
+ECLAIR: how many centroids to generate for each run of k-means clustering?
+5
+
+ECLAIR: the total number of consensus clusters defaults to the highest number of clusters encountered in each of the 50 independent runs of subsamplings and clusterings. Do you want to provide a value instead? [Y/n]
+n
+
+
+
+ECLAIR	 INFO	 2017-09-15 09:09:31: ready to proceed!
+
+
+
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 1.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0896 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 2.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0386 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 3.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.046 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 4.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0503 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 5.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0482 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 6.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0516 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 7.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0496 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 8.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0489 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 9.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0468 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 10.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0479 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 11.
+ECLAIR	 INFO	 2017-09-15 09:09:31: done with this round of clustering; it took 0.0498 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:31: starting run of clustering number 12.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.048 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 13.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0505 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 14.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0546 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 15.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0499 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 16.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0489 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 17.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.044 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 18.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0456 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 19.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0472 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 20.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0508 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 21.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0442 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 22.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0487 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 23.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0489 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 24.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0489 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 25.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0454 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 26.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0485 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 27.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.048 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 28.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0515 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 29.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0501 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 30.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.0459 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 31.
+ECLAIR	 INFO	 2017-09-15 09:09:32: done with this round of clustering; it took 0.046 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:32: starting run of clustering number 32.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0423 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 33.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0441 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 34.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.047 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 35.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0457 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 36.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0509 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 37.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.051 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 38.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0536 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 39.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0467 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 40.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0459 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 41.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0487 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 42.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0511 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 43.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.047 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 44.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0457 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 45.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0428 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 46.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0444 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 47.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0469 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 48.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0524 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 49.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0457 seconds.
+ECLAIR	 INFO	 2017-09-15 09:09:33: starting run of clustering number 50.
+ECLAIR	 INFO	 2017-09-15 09:09:33: done with this round of clustering; it took 0.0502 seconds.
+*****
+INFO: Cluster_Ensembles: CSPA: consensus clustering using CSPA.
+
+#
+INFO: Cluster_Ensembles: wgraph: writing wgraph_CSPA.
+#
+
+#
+INFO: Cluster_Ensembles: sgraph: calling gpmetis for graph partitioning.
+******************************************************************************
+METIS 5.0 Copyright 1998-13, Regents of the University of Minnesota
+ (HEAD: , Built on: Sep 15 2017, 09:03:02)
+ size of idx_t: 32bits, real_t: 32bits, idx_t *: 64bits
+
+Graph Information -----------------------------------------------------------
+ Name: ./wgraph_CSPA, #Vertices: 640, #Edges: 48338, #Parts: 5
+
+Options ---------------------------------------------------------------------
+ ptype=kway, objtype=cut, ctype=shem, rtype=greedy, iptype=metisrb
+ dbglvl=0, ufactor=1.030, no2hop=NO, minconn=NO, contig=NO, nooutput=NO
+ seed=-1, niter=10, ncuts=1
+
+Direct k-way Partitioning ---------------------------------------------------
+ - Edgecut: 16419216, communication volume: 405.
+
+ - Balance:
+     constraint #0:  1.023 out of 0.008
+
+ - Most overweight partition:
+     pid: 4, actual: 131, desired: 128, ratio: 1.02.
+
+ - Subdomain connectivity: max: 3, min: 0, avg: 1.60
+
+ - The original graph had 5 connected components and the resulting
+   partitioning after removing the cut edges has 8 components.
+Timing Information ----------------------------------------------------------
+  I/O:          		   0.008 sec
+  Partitioning: 		   0.003 sec   (METIS time)
+  Reporting:    		   0.001 sec
+
+Memory Information ----------------------------------------------------------
+  Max memory used:		   0.963 MB
+******************************************************************************
+INFO: Cluster_Ensembles: sgraph: (hyper)-graph partitioning completed; loading wgraph_CSPA.part.5
+#
+
+INFO: Cluster_Ensembles: cluster_ensembles: CSPA at 0.776945860086.
+*****
+
+*****
+INFO: Cluster_Ensembles: HGPA: consensus clustering using HGPA.
+
+#
+INFO: Cluster_Ensembles: wgraph: writing wgraph_HGPA.
+INFO: Cluster_Ensembles: wgraph: 640 vertices and 250 non-zero hyper-edges.
+#
+
+#
+INFO: Cluster_Ensembles: sgraph: calling shmetis for hypergraph partitioning.
+*******************************************************************************
+ HMETIS 1.5.3  Copyright 1998, Regents of the University of Minnesota
+
+HyperGraph Information -----------------------------------------------------
+ Name: ./wgraph_HGPA, #Vtxs:   640, #Hedges:   250, #Parts: 5, UBfactor: 0.15
+ Options: HFC, FM, Reconst-False, V-cycles @ End, No Fixed Vertices
+
+Recursive Partitioning... --------------------------------------------------
+
+  Bisecting a hgraph of size [vertices=640, hedges=250, balance=0.40]
+    The mincut for this bisection = 32000, (average = 32000.0) (balance = 0.50)
+
+  Bisecting a hgraph of size [vertices=320, hedges=0, balance=0.50]
+    The mincut for this bisection = 0, (average = 0.0) (balance = 0.50)
+
+  Bisecting a hgraph of size [vertices=320, hedges=0, balance=0.33]
+    The mincut for this bisection = 0, (average = 0.0) (balance = 0.50)
+
+  Bisecting a hgraph of size [vertices=160, hedges=0, balance=0.50]
+    The mincut for this bisection = 0, (average = 0.0) (balance = 0.50)
+
+ --------------------------------------------------------------------------
+  Summary for the 5-way partition:
+                Hyperedge Cut:     32000		(minimize)
+      Sum of External Degrees:    160000		(minimize)
+                  Scaled Cost:  5.47e-01		(minimize)
+                   Absorption:    240.97		(maximize)
+
+      Partition Sizes & External Degrees:
+	   160[32000]    160[32000]    160[32000]     80[32000]     80[32000] 
+	
+
+Timing Information ---------------------------------------------------------
+  Partitioning Time:		   0.004sec
+           I/O Time:		   0.004sec
+*******************************************************************************
+INFO: Cluster_Ensembles: sgraph: (hyper)-graph partitioning completed; loading wgraph_HGPA.part.5
+#
+
+INFO: Cluster_Ensembles: cluster_ensembles: HGPA at 0.000178067785293.
+*****
+
+*****
+INFO: Cluster_Ensembles: MCLA: consensus clustering using MCLA.
+INFO: Cluster_Ensembles: MCLA: preparing graph for meta-clustering.
+INFO: Cluster_Ensembles: MCLA: done filling hypergraph adjacency matrix. Starting computation of Jaccard similarity matrix.
+INFO: Cluster_Ensembles: MCLA: starting computation of Jaccard similarity matrix.
+INFO: Cluster_Ensembles: MCLA: done computing the matrix of pairwise Jaccard similarity scores.
+
+#
+INFO: Cluster_Ensembles: wgraph: writing wgraph_MCLA.
+#
+
+#
+INFO: Cluster_Ensembles: sgraph: calling gpmetis for graph partitioning.
+******************************************************************************
+METIS 5.0 Copyright 1998-13, Regents of the University of Minnesota
+ (HEAD: , Built on: Sep 15 2017, 09:03:02)
+ size of idx_t: 32bits, real_t: 32bits, idx_t *: 64bits
+
+Graph Information -----------------------------------------------------------
+ Name: ./wgraph_MCLA, #Vertices: 250, #Edges: 6125, #Parts: 5
+
+Options ---------------------------------------------------------------------
+ ptype=kway, objtype=cut, ctype=shem, rtype=greedy, iptype=metisrb
+ dbglvl=0, ufactor=1.030, no2hop=NO, minconn=NO, contig=NO, nooutput=NO
+ seed=-1, niter=10, ncuts=1
+
+Direct k-way Partitioning ---------------------------------------------------
+ - Edgecut: 139000, communication volume: 150.
+
+ - Balance:
+     constraint #0:  1.020 out of 0.037
+
+ - Most overweight partition:
+     pid: 0, actual: 652500, desired: 640000, ratio: 1.02.
+
+ - Subdomain connectivity: max: 3, min: 0, avg: 1.60
+
+ - The original graph had 5 connected components and the resulting
+   partitioning after removing the cut edges has 8 components.
+Timing Information ----------------------------------------------------------
+  I/O:          		   0.001 sec
+  Partitioning: 		   0.001 sec   (METIS time)
+  Reporting:    		   0.000 sec
+
+Memory Information ----------------------------------------------------------
+  Max memory used:		   0.232 MB
+******************************************************************************
+INFO: Cluster_Ensembles: sgraph: (hyper)-graph partitioning completed; loading wgraph_MCLA.part.5
+#
+INFO: Cluster_Ensembles: MCLA: delivering 4 clusters.
+INFO: Cluster_Ensembles: MCLA: average posterior probability is 0.360500625232
+
+INFO: Cluster_Ensembles: cluster_ensembles: MCLA at 0.935544511804.
+*****
+
+ECLAIR	 INFO 2017-09-15 09:09:35: done with computing the means and variances for the pair of distances along each minimum spanning tree between the groups of cells underlying each cluster of the ensemble clustering. The full probability distributions are available and stored in HDF5 format and available for further analysis.
+
+ECLAIR	 INFO	 2017-09-15 09:09:35: the various runs of subsampling and clustering took 2.5613 seconds, ensemble clustering took 1.0971 seconds, while calculating the distribution of pairwise distances took 0.4174 seconds. The whole process lasted 4.5862 seconds
+
+*****************************************
+*****************************************
