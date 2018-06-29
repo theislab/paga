@@ -1,16 +1,22 @@
-# PAGA - Partition-based graph abstraction
+# PAGA - partition-based graph abstraction
 
-*Generate cellular maps of differentiation manifolds with complex topologies.*
+*Mapping manifolds with complex topologies.*
 
-The bioRxiv [preprint](https://doi.org/10.1101/208819) contains the essential ideas, but is otherwise very much out of date. [Here's](https://rawgit.com/falexwolf/paga_paper/master/paga.pdf) a completely revised version. If you find PAGA useful, consider citing the bioRxiv preprint.
+The bioRxiv [preprint](https://doi.org/10.1101/208819) contains the essential ideas, but is otherwise very much out of date. [Here's](https://rawgit.com/falexwolf/paga_paper/master/paga.pdf) a completely revised version.
 
 PAGA is available within [Scanpy](https://scanpy.readthedocs.io) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html).
+
+---
+
+![PAGA for hematopoiesis.](https://falexwolf.de/img/paga_figure2.png "PAGA for hematopoiesis.")
+
+---
 
 Listed below are central example notebooks, which also allow reproducing all main figures of the revised preprint. If you start working with PAGA, go through [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb).
 
 notebook       | system         | details  | reference | figure
 ---------------| ---------------| ---------| ----------| ------
-[*blood/simulated*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/simulated/simulated.ipynb) | hematopoiesis | simulated | [Krumsiek *et al.*, 2011](https://doi.org/10.1371/journal.pone.0022649) | 2a
+[*blood/simulated*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/simulated/simulated.ipynb) | hematopoiesis | simulated | [Krumsiek *et al.*, Plos One (2011)](https://doi.org/10.1371/journal.pone.0022649) | 2a
 [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb) | murine hematopoiesis | 2,730 cells, MARS-seq | [Paul *et al.*, Cell (2015)](https://doi.org/10.1016/j.cell.2015.11.013) | 2b
 [*blood/nestorowa16*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/nestorowa16/nestorowa16.ipynb) | murine hematopoiesis | 1,654 cells, Smart-seq2 | [Nestorowa *et al.*, Blood (2016)](https://doi.org/10.1182/blood-2016-05-716480) | 2c
 [*blood/dahlin18*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/dahlin18/dahlin18.ipynb) | murine hematopoiesis | 44,802 cells, 10x Genomics | [Dahlin *et al.*, Blood (2018)](https://doi.org/10.1182/blood-2017-12-821413) | 2d
@@ -19,7 +25,7 @@ notebook       | system         | details  | reference | figure
 [*1M_neurons*](https://github.com/theislab/scanpy_usage/blob/master/170522_visualizing_one_million_cells/logfile_1.3M.txt) | neurons | 1.3 million cells, 10x Genomics | [10x Genomics (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1M_neurons) | S12
 [*deep_learning*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/deep_learning/deep_learning.ipynb) | cycling Jurkat cells | 30,000 single-cell images |  [Eulenberg *et al.*, Nat. Commun. (2017)](https://doi.org/10.1038/s41467-017-00623-3) | S14
 
-All supplemental figures of the revised preprint can be reproduced using the following:
+All supplemental figures of the revised preprint can be reproduced based on the follwoing table.
 
 notebook       |  description | figure
 ---------------|  ----------| ------
