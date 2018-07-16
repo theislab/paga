@@ -1,8 +1,8 @@
 # PAGA - partition-based graph abstraction
 
-*Mapping manifolds with complex topologies.*
+*Mapping topologies of complex manifolds.*
 
-The bioRxiv [preprint](https://doi.org/10.1101/208819) contains the essential ideas, but is otherwise very much out of date. [Here's](https://rawgit.com/falexwolf/paga_paper/master/paga.pdf) a completely revised version.
+The bioRxiv [preprint](https://doi.org/10.1101/208819) contains the essential ideas, but is otherwise very much out of date. [Here's](https://rawgit.com/falexwolf/paga_paper/master/paga.pdf) a completely revised version. This repository used to be at [_theislab/graph_abstraction_](https://github.com/theislab/graph_abstraction).
 
 PAGA is available within [Scanpy](https://scanpy.readthedocs.io) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html).
 
