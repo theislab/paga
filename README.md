@@ -1,12 +1,12 @@
 # PAGA - partition-based graph abstraction
 
-*Mapping out the coarse-grained connectivity structures of complex manifolds [bioRxiv (2017)](https://doi.org/10.1101/208819).*
+*Mapping out the coarse-grained connectivity structures of complex manifolds [(bioRxiv, 2017)](https://doi.org/10.1101/208819).*
 
 ![PAGA for hematopoiesis.](http://www.falexwolf.de/img/paga_paul15.png "PAGA for hematopoiesis.")
 
 PAGA is available within [Scanpy](https://scanpy.readthedocs.io/en/latest/examples.html#trajectory-inference) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html).
 
-Below you find links to all central example notebooks, which also allow reproducing all main figures of the revised preprint. If you start working with PAGA, go through [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb).
+Below you find links to all central example notebooks, which also allow reproducing all main figures of the paper. If you start working with PAGA, go through [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb).
 
 notebook       | system         | details  | reference | figure
 ---------------| ---------------| ---------| ----------| ------
@@ -19,7 +19,7 @@ notebook       | system         | details  | reference | figure
 [*1M_neurons*](https://github.com/theislab/scanpy_usage/blob/master/170522_visualizing_one_million_cells/logfile_1.3M.txt) | neurons | 1.3 million cells, 10x Genomics | [10x Genomics (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1M_neurons) | S12
 [*deep_learning*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/deep_learning/deep_learning.ipynb) | cycling Jurkat cells | 30,000 single-cell images |  [Eulenberg *et al.*, Nat. Commun. (2017)](https://doi.org/10.1038/s41467-017-00623-3) | S14
 
-All supplemental figures of the revised preprint can be reproduced based on the following table.
+All supplemental figures of the paper can be reproduced based on the following table.
 
 notebook       |  description | figure
 ---------------|  ----------| ------
