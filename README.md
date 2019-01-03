@@ -4,7 +4,7 @@
 
 ![PAGA for hematopoiesis.](http://www.falexwolf.de/img/paga_paul15.png "PAGA for hematopoiesis.")
 
-PAGA is available within [Scanpy](https://scanpy.readthedocs.io/en/latest/examples.html#trajectory-inference) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.pl.paga_compare.html).
+PAGA is available within [Scanpy](https://scanpy.readthedocs.io/en/latest/examples.html#trajectory-inference) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga_compare.html).
 
 Below you find links to all central example notebooks, which also allow reproducing all main figures of the paper. If you start working with PAGA, go through [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb).
 
