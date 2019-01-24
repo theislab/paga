@@ -11,7 +11,7 @@ Below you find links to all central example notebooks, which also allow reproduc
 notebook       | system         | details  | reference | figure
 ---------------| ---------------| ---------| ----------| ------
 [*blood/simulated*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/simulated/simulated.ipynb) | hematopoiesis | simulated | [Krumsiek *et al.*, Plos One (2011)](https://doi.org/10.1371/journal.pone.0022649) | 2a
-[*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb) | murine hematopoiesis | 2,730 cells, MARS-seq | [Paul *et al.*, Cell (2015)](https://doi.org/10.1016/j.cell.2015.11.013) | 2b
+[*blood/paul15*](https://scanpy-tutorials.readthedocs.io/en/latest/paga-paul15.html) | murine hematopoiesis | 2,730 cells, MARS-seq | [Paul *et al.*, Cell (2015)](https://doi.org/10.1016/j.cell.2015.11.013) | 2b
 [*blood/nestorowa16*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/nestorowa16/nestorowa16.ipynb) | murine hematopoiesis | 1,654 cells, Smart-seq2 | [Nestorowa *et al.*, Blood (2016)](https://doi.org/10.1182/blood-2016-05-716480) | 2c
 [*blood/dahlin18*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/dahlin18/dahlin18.ipynb) | murine hematopoiesis | 44,802 cells, 10x Genomics | [Dahlin *et al.*, Blood (2018)](https://doi.org/10.1182/blood-2017-12-821413) | 2d
 [*planaria*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/planaria/planaria.ipynb) | planaria | 21,612 cells | [Plass *et al.*, Science (2018)](https://doi.org/10.1126/science.aaq1723) | 3
