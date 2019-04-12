@@ -1,6 +1,6 @@
 # PAGA - partition-based graph abstraction
 
-*Mapping out the coarse-grained connectivity structures of complex manifolds [(Genome Biology, 2019)](https://doi.org/10.1186/s13059-019-1663-x).*
+*Mapping out the coarse-grained connectivity structures of complex manifolds [(Genome Biology, 2019)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1663-x).*
 
 ![PAGA for hematopoiesis.](http://www.falexwolf.de/img/paga_paul15.png "PAGA for hematopoiesis.")
 
