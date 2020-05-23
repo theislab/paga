@@ -4,9 +4,9 @@
 
 ![PAGA for hematopoiesis.](http://www.falexwolf.de/img/paga_paul15.png "PAGA for hematopoiesis.")
 
-PAGA is available within [Scanpy](https://scanpy.readthedocs.io/en/latest/examples.html#trajectory-inference) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga_compare.html).
+PAGA is available within [Scanpy](https://scanpy.readthedocs.io/en/stable/tutorials.html#trajectory-inference) through: [`tl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.tl.paga.html) | [`pl.paga`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga.html) | [`pl.paga_path`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga_path.html) | [`pl.paga_compare`](https://scanpy.readthedocs.io/en/latest/api/scanpy.pl.paga_compare.html).
 
-Below you find links to all central example notebooks, which also allow reproducing all main figures of the paper. If you start working with PAGA, go through [*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb).
+Below you find links to all central example notebooks, which also allow reproducing all main figures of the paper. If you start working with PAGA, go through [*blood/paul15*](https://scanpy-tutorials.readthedocs.io/en/latest/paga-paul15.html).
 
 notebook       | system         | details  | reference | figure
 ---------------| ---------------| ---------| ----------| ------
@@ -27,9 +27,9 @@ notebook       |  description | figure
 [*robustness*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/robustness) | robustness and multi-resolution capacity | S4, S5
 [*comparisons/simulated_data*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/comparisons/simulated_data) | comparisons for simulated data | S6, S7
 [*comparisons/paul15_monocle2*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/comparisons/paul15_monocle2) | comparison Monocle 2 for Paul *et al.* (2015) | S8
-[*comparisons/nestorowa16_monocle2*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/comparisons/nestorowa16_monocle2) | comparison Monocle 2 for Nestorowa *et al.* (2016) | S9
+[*comparisons/nestorowa16_monocle2*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/comparisons/nestorowa16_monocle2/nestorowa16_monocle2.ipynb) | comparison Monocle 2 for Nestorowa *et al.* (2016) | S9
 [*embedding_quality*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/embedding_quality/embedding_quality.ipynb) | quantifying embedding quality | S10
 [*simulation*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/simulated/simulated.ipynb) | simulating hematopoiesis | S11
 [*1M_neurons*](https://github.com/theislab/scanpy_usage/blob/master/170522_visualizing_one_million_cells/logfile_1.3M.txt) | neurons, 1.3 million cells, 10x Genomics, [10x Genomics (2017)](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1M_neurons) | S12
-[*blood/paul15*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/blood/paul15/paul15.ipynb) | annotation of louvain clusters using PAGA | S13
+[*blood/paul15*](https://scanpy-tutorials.readthedocs.io/en/latest/paga-paul15.html) | annotation of louvain clusters using PAGA | S13
 [*deep_learning*](https://nbviewer.jupyter.org/github/theislab/paga/blob/master/deep_learning/deep_learning.ipynb) | cycling Jurkat cells, 30,000 single-cell images, [Eulenberg *et al.*, Nat. Commun. (2017)](https://doi.org/10.1038/s41467-017-00623-3) | S14
